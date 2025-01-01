@@ -33,10 +33,18 @@ Your dataset should be in a JSON file containing problems and their correspondin
 Create a json file 
 ```json
 [
-  {
-    "problem":"what is 1 + 1 ? ",
-    "answer" : "2"
-  }
+    {
+      "problem": "Calculate the area of a circle with radius 5",
+      "answer": "78.54"
+    },
+    {
+      "problem": "Find the sum of numbers from 1 to 10",
+      "answer": "55"
+    },
+    {
+      "problem": "What is the square root of 144?",
+      "answer": "12"
+    }
 ]
 ```
 
