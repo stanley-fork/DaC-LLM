@@ -15,7 +15,7 @@ def execute_python_code(code):
         except Exception as e:
             return f"Error: {str(e)}"
 
-def solve_with_python(problem, client, max_iterations=5):
+def solve_with_python(problem, client, model, max_iterations=5):
     messages = []
     iteration = 0
     
@@ -44,7 +44,7 @@ def solve_with_python(problem, client, max_iterations=5):
     
     while iteration < max_iterations:
         completion = client.chat.completions.create(
-            model="<your-model>",
+            model=model,
             messages=messages,
             temperature=0.7,
             max_tokens=1000
@@ -99,7 +99,7 @@ def solve_with_python(problem, client, max_iterations=5):
                           "Start with 'CONFIDENT:' if you're sure."
             })
             final_completion = client.chat.completions.create(
-                model="<your-model>",
+                model=model,
                 messages=messages,
                 temperature=0.7,
                 max_tokens=100
@@ -122,9 +122,9 @@ def main():
     config = read_config()
     
     # Load the dataset
-    df = pd.read_json(config['input_file'], lines=True)
+    df = pd.read_json(config['input_file'], lines=False)
     
-    client = OpenAI(base_url=config['model_link'], api_key=config['api_key'])
+    client = OpenAI(base_url=config['base_url'], api_key=config['api_key'])
    
     results = []
     
@@ -141,7 +141,7 @@ def main():
             problem = df['problem'].iloc[i]
             ground_truth = df['answer'].iloc[i]
             
-            solution = solve_with_python(problem, client)
+            solution = solve_with_python(problem, client, config['model'])
             
             entry = {
                 'problem_index': i,
