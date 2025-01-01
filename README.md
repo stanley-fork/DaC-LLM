@@ -2,7 +2,7 @@
 This repository showcases our recent research aimed at improving the accuracy of large language models (LLMs) in mathematical domains. We believe our approach has surpassed previous methods, such as chain-of-thought and graph-of-thought techniques, achieving state-of-the-art performance.
 
 ## Background
-In recent years, numerous prompting methods have been developed to guide large language models (LLMs) in tackling mathematical problems. However, their mathematical performance still falls short of satisfaction espically without fine tuning or zero-shot prompting. As a result, we have devised a novel approach to enhance this performance, which we call "divide and conquer." Unlike traditional applications of divide and conquer, our method proposes utilizing a programming language, such as Python, combined with an interpreter, simulating the way a human uses a calculator.
+In recent years, numerous prompting methods have been developed to guide large language models (LLMs) in tackling mathematical problems i.e Chain of Thought. However, their mathematical performance still falls short of satisfaction espically without fine tuning or zero-shot prompting. As a result, we have devised a novel approach to enhance this performance, which we call "divide and conquer." Unlike traditional applications of divide and conquer, our method proposes utilizing a programming language, such as Python, combined with an interpreter, simulating the way a human uses a calculator.
 
 ## Algorithm (2024-12-31 Update)
 
