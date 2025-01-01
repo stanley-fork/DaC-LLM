@@ -34,13 +34,14 @@ Create a json file
 ```json
 [
   {
-    "problem":"what is 1 + 1 ? "
+    "problem":"what is 1 + 1 ? ",
     "answer" : "2"
   }
 ]
 ```
 
-Change to file link , base url and api key in the py file. Then run 
+Change to file link , base url and api key in the py file. Change to lines=False if it is standard object. 
+Then run
 ```bash
 python DaC.py
 ```
