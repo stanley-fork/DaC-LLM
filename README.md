@@ -11,7 +11,8 @@ In recent years, numerous prompting methods have been developed to guide large l
 <br/>
 
 ### Perofrmance Analysis
-![Uploading Screenshot 2025-01-01 at 3.25.38 PM.png…]()
+![Screenshot 2025-01-01 at 3 26 21 PM](https://github.com/user-attachments/assets/dcd32ed2-6d9b-44a1-8c04-c6f9379c9bc1)
+
 
 
 ### Explain
