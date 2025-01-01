@@ -7,7 +7,6 @@ import sys
 import contextlib
 
 def execute_python_code(code):
-    # Capture output from Python code execution
     output = io.StringIO()
     with contextlib.redirect_stdout(output):
         try:
@@ -20,7 +19,6 @@ def solve_with_python(problem, client, max_iterations=5):
     messages = []
     iteration = 0
     
-    # Enhanced system prompt
     system_prompt = """You are an expert mathematical problem solver. Follow these steps:
 1. First analyze if the problem can be solved with Python code.
 2. If yes, provide clear, executable Python code with necessary imports.
@@ -56,7 +54,6 @@ def solve_with_python(problem, client, max_iterations=5):
         solution_attempts.append(response)
         messages.append({"role": "assistant", "content": response})
         
-        # Exit early if LLM is confident
         if response.startswith("CONFIDENT:"):
             return {
                 "final_answer": response.replace("CONFIDENT:", "").strip(),
@@ -65,14 +62,12 @@ def solve_with_python(problem, client, max_iterations=5):
                 "subquestions": subquestions
             }
         
-        # Extract subquestions
         if "Step" in response or "Problem" in response:
             for line in response.split('\n'):
                 if (line.startswith(('Step', 'Problem', '•', '-', '*')) or 
                     any(str(i) + '.' in line for i in range(1, 10))):
                     subquestions.append(line.strip())
         
-        # Execute Python code if present and feed result back to LLM
         if "```python" in response:
             code_blocks = response.split("```python")
             for block in code_blocks[1:]:
@@ -97,7 +92,6 @@ def solve_with_python(problem, client, max_iterations=5):
         
         iteration += 1
         
-        # Force final answer if max iterations reached
         if iteration >= max_iterations:
             messages.append({
                 "role": "system",
@@ -119,22 +113,27 @@ def solve_with_python(problem, client, max_iterations=5):
     
     return None
 
-def main():
-    # Load the dataset
-    df = pd.read_json("The json File", lines=True)
-    
-    client = OpenAI(base_url="<model-link>", api_key="<your-apikey>")
-   
-    # Initialize or load existing results
-    output_file = 'your-output-file-name.json'
-    results = []
+def read_config(config_file='config.json'):
+    with open(config_file, 'r') as f:
+        config = json.load(f)
+    return config
 
+def main():
+    config = read_config()
+    
+    # Load the dataset
+    df = pd.read_json(config['input_file'], lines=True)
+    
+    client = OpenAI(base_url=config['model_link'], api_key=config['api_key'])
+   
+    results = []
+    
     # Load existing results if the file exists
-    if os.path.exists(output_file):
-        with open(output_file, 'r') as f:
+    if os.path.exists(config['output_file']):
+        with open(config['output_file'], 'r') as f:
             results = json.load(f)
     
-    start_index = len(results)  # Continue from the last processed index
+    start_index = len(results)
     
     try:
         for i in range(start_index, len(df)):
@@ -156,8 +155,8 @@ def main():
             
             results.append(entry)
             
-            # Save after each iteration (append mode)
-            with open(output_file, 'w') as f:
+            # Save after each iteration
+            with open(config['output_file'], 'w') as f:
                 json.dump(results, f, indent=2)
             
             print(f"Completed question {i + 1} in {solution['iterations']} iterations")
@@ -166,8 +165,7 @@ def main():
             
     except Exception as e:
         print(f"Error occurred at index {i}: {str(e)}")
-        # Save progress even if error occurs
-        with open(output_file, 'w') as f:
+        with open(config['output_file'], 'w') as f:
             json.dump(results, f, indent=2)
 
 if __name__ == "__main__":
