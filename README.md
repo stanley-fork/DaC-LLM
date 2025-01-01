@@ -30,6 +30,21 @@ Currently, our experiments with other models and datasets are still in progress.
 ## Usage
 Your dataset should be in a JSON file containing problems and their corresponding answers. Additionally, Python installation is necessary.
 
+Create a json file 
+```json
+[
+  {
+    "problem":"what is 1 + 1 ? "
+    "answer" : "2"
+  }
+]
+```
+
+Change to file link , base url and api key in the py file. Then run 
+```bash
+python DaC.py
+```
+
 ## Paper
 Our paper is currently in progress. If you are interested in collaborating with us, please feel free to reach out! Any feedback are hugely appreciated.
 
