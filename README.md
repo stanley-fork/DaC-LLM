@@ -50,7 +50,8 @@ If you reference this work, please cite it as follows:
 **Au Chi Kin Kinson**,
 **Liu Peter Hong**,
 **Cho Chung Hei**. *Enhancing Mathematical Problem Solving with Large Language Models: A Divide and Conquer Approach*.
-[GitHub Repository](https://github.com/JasonAlbertEinstien/DaC-LLM). Licensed under [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+[GitHub Repository](https://github.com/JasonAlbertEinstien/DaC-LLM).
+Licensed under [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 ```
 ## License
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
