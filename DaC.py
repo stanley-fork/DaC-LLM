@@ -127,17 +127,18 @@ def main():
    
     # Initialize or load existing results
     output_file = 'your-output-file-name.json'
+    results = []
+
+    # Load existing results if the file exists
     if os.path.exists(output_file):
         with open(output_file, 'r') as f:
             results = json.load(f)
-        start_index = len(results)
-    else:
-        results = []
-        start_index = 0
+    
+    start_index = len(results)  # Continue from the last processed index
     
     try:
         for i in range(start_index, len(df)):
-            print(f"Processing question {i} of {len(df)}")
+            print(f"Processing question {i + 1} of {len(df)}")
             problem = df['problem'].iloc[i]
             ground_truth = df['answer'].iloc[i]
             
@@ -155,11 +156,11 @@ def main():
             
             results.append(entry)
             
-            # Save after each iteration
+            # Save after each iteration (append mode)
             with open(output_file, 'w') as f:
                 json.dump(results, f, indent=2)
             
-            print(f"Completed question {i} in {solution['iterations']} iterations")
+            print(f"Completed question {i + 1} in {solution['iterations']} iterations")
             print(f"Generated {len(solution['subquestions'])} subquestions")
             print("-" * 50)
             
