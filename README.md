@@ -48,7 +48,7 @@ Create a json file
 ]
 ```
 
-You can create the json file with out generator. You only need to change to config.json file to use this program. 
+You can create the json file with our generator. You only need to change to config.json file to use this program. 
 ```
 python dac.py
 ```
