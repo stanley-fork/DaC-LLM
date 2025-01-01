@@ -21,6 +21,9 @@ Currently, our experiments with other models and datasets are still in progress.
 | Our Method (Multiple Attempts)     | 441 / 500  |
 | Our Method (One Attempt)           | 407 / 500  |
 
+## Usage
+Your dataset should be in a JSON file containing problems and their corresponding answers. Additionally, Python installation is necessary.
+
 
 ## Paper
 Our paper is currently in progress. If you are interested in collaborating with us, please feel free to reach out!
