@@ -30,6 +30,19 @@ Currently, our experiments with other models and datasets are still in progress.
 ## Usage
 Your dataset should be in a JSON file containing problems and their corresponding answers. Additionally, Python installation is necessary.
 
+## Paper
+Our paper is currently in progress. If you are interested in collaborating with us, please feel free to reach out! Any feedback are hugely appreciated.
+
+## Author
+Hon Kit Long u3608018 [at] connect.hku.hk 
+<br>
+Au Chi Kin Kinson chikinau03 [at] gmail.com
+<br>
+Liu Peter Hong Zhiliuhongzhi3000 [at] gmail.com
+<br>
+Cho Chung Hei u3605966 [at] connect.hku.hk
+
+
 ## License
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
@@ -43,16 +56,3 @@ This work is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
-
-## Paper
-Our paper is currently in progress. If you are interested in collaborating with us, please feel free to reach out!
-
-## Author
-Hon Kit Long u3608018 [at] connect.hku.hk 
-<br>
-Au Chi Kin Kinson chikinau03 [at] gmail.com
-<br>
-Liu Peter Hong Zhiliuhongzhi3000 [at] gmail.com
-<br>
-Cho Chung Hei u3605966 [at] connect.hku.hk
-
