@@ -53,6 +53,9 @@ You can create the json file with out generator. You only need to change to conf
 python dac.py
 ```
 
+## Demo
+https://www.youtube.com/watch?v=t5CKDndcRSk
+
 ## Paper
 Our paper is currently in progress. If you are interested in collaborating with us, please feel free to reach out! Any feedback are hugely appreciated.
 
