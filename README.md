@@ -48,10 +48,9 @@ Create a json file
 ]
 ```
 
-Change to file link , base url and api key in the py file. Change to lines=False if it is standard object. 
-Then run
-```bash
-python DaC.py
+You can create the json file with out generator. You only need to change to config.json file to use this program. 
+```
+python dac.py
 ```
 
 ## Paper
