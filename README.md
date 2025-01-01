@@ -10,6 +10,10 @@ In recent years, numerous prompting methods have been developed to guide large l
 <img width="703" alt="Screenshot 2025-01-01 at 1 49 49 PM" src="https://github.com/user-attachments/assets/33a0d20d-f92f-4be3-9a1b-3ced0477e0fd" />
 <br/>
 
+### Perofrmance Analysis
+![Uploading Screenshot 2025-01-01 at 3.25.38 PM.png…]()
+
+
 ### Explain
 Our algorithm primarily focuses on mathematical problems, particularly computational challenges rather than proof-based issues. It first assesses whether the problem is a mathematical one and then divides it into subproblems until it can be solved using Python programming. This approach significantly reduces calculation errors, and we believe that our performance, even without fine-tuning the model, has reached state-of-the-art levels.
 
