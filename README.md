@@ -24,6 +24,8 @@ Currently, our experiments with other models and datasets are still in progress.
 ## Usage
 Your dataset should be in a JSON file containing problems and their corresponding answers. Additionally, Python installation is necessary.
 
+## License
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Paper
 Our paper is currently in progress. If you are interested in collaborating with us, please feel free to reach out!
