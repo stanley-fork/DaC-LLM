@@ -1,4 +1,4 @@
-# DoC-LLM
+# Dac-LLM
 This repository showcases our recent research aimed at improving the accuracy of large language models (LLMs) in mathematical domains. We believe our approach has surpassed previous methods, such as chain-of-thought and graph-of-thought techniques, achieving state-of-the-art performance.
 
 ## Background
@@ -6,7 +6,7 @@ In recent years, numerous prompting methods have been developed to guide large l
 
 ## Algorithm
 
-### DoC Algorithm
+### Dac Algorithm
 <img width="703" alt="Screenshot 2025-01-01 at 1 49 49 PM" src="https://github.com/user-attachments/assets/33a0d20d-f92f-4be3-9a1b-3ced0477e0fd" />
 <br/>
 
