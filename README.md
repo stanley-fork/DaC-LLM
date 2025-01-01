@@ -4,7 +4,7 @@ This repository showcases our recent research aimed at improving the accuracy of
 ## Background
 In recent years, numerous prompting methods have been developed to guide large language models (LLMs) in tackling mathematical problems. However, their mathematical performance still falls short of satisfaction. As a result, we have devised a novel approach to enhance this performance, which we call "divide and conquer." Unlike traditional applications of divide and conquer, our method proposes utilizing a programming language, such as Python, combined with an interpreter, simulating the way a human uses a calculator.
 
-## Algorithm
+## Algorithm (2024-12-31 Update)
 
 ### Dac Algorithm
 <img width="703" alt="Screenshot 2025-01-01 at 1 49 49 PM" src="https://github.com/user-attachments/assets/33a0d20d-f92f-4be3-9a1b-3ced0477e0fd" />
@@ -32,8 +32,11 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 Our paper is currently in progress. If you are interested in collaborating with us, please feel free to reach out!
 
 ## Author
-Hon Kit Long u3608018 [at] connect.hku.hk
+Hon Kit Long u3608018 [at] connect.hku.hk 
+<br>
 Kinson Au
+<br>
 Liu Peter Hong Zhiliuhongzhi3000 [at] gmail.com
+<br>
 Cho Chung Hei u3605966 [at] connect.hku.hk
 
