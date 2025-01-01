@@ -46,10 +46,10 @@ Cho Chung Hei u3605966 [at] connect.hku.hk
 
 If you reference this work, please cite it as follows:
 ```
-**Hon Kit Long**,
-**Au Chi Kin Kinson**,
-**Liu Peter Hong**,
-**Cho Chung Hei**.
+Hon Kit Long,
+Au Chi Kin Kinson,
+Liu Peter Hong,
+Cho Chung Hei.
 *Enhancing Mathematical Problem Solving with Large Language Models: A Divide and Conquer Approach*.
 [GitHub Repository](https://github.com/JasonAlbertEinstien/DaC-LLM).
 Licensed under
