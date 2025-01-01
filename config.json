@@ -1,6 +1,7 @@
 {
-  "input_file": "input.json",
-  "output_file": "output.json",
-  "api_key": "<your-apikey>",
-  "model_link": "<model-link>"
+    "input_file": "input.json",
+    "output_file": "output.json",
+    "api_key": "api key",
+    "model": "model",
+    "base_url":"base-url"
 }
