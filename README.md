@@ -14,7 +14,8 @@ In recent years, numerous prompting methods have been developed to guide large l
 Our algorithm primarily focuses on mathematical problems, particularly computational challenges rather than proof-based issues. It first assesses whether the problem is a mathematical one and then divides it into subproblems until it can be solved using Python programming. This approach significantly reduces calculation errors, and we believe that our performance, even without fine-tuning the model, has reached state-of-the-art levels.
 
 ## Performance 
-Currently, our experiments with other models and datasets are still in progress. However, here are some experimental results using the DeepSeek v3 model.
+Currently, our experiments with other models and datasets are still in progress. However, here are some experimental results using the DeepSeek v3 model. Some result materials are provided. 
+
 | Method                             | Score      |
 |------------------------------------|------------|
 | Direct Prompting                   | 271 / 500  |
@@ -33,6 +34,6 @@ Our paper is currently in progress. If you are interested in collaborating with 
 ## Author
 Hon Kit Long u3608018 [at] connect.hku.hk
 Kinson Au
-Liu Peter Hong Zhi
+Liu Peter Hong Zhiliuhongzhi3000 [at] gmail.com
 Cho Chung Hei u3605966 [at] connect.hku.hk
 
