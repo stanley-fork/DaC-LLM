@@ -34,7 +34,7 @@ Our paper is currently in progress. If you are interested in collaborating with 
 ## Author
 Hon Kit Long u3608018 [at] connect.hku.hk 
 <br>
-Kinson Au chikinau03 [at] gmail.com
+Au Chi Kin Kinson chikinau03 [at] gmail.com
 <br>
 Liu Peter Hong Zhiliuhongzhi3000 [at] gmail.com
 <br>
