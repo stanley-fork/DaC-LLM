@@ -56,9 +56,6 @@ python dac.py
 ## Demo
 https://www.youtube.com/watch?v=t5CKDndcRSk
 
-## Paper
-We are currently finding advisor. Feel free to contact us! 
-
 ## Author
 Hon Kit Long u3608018 [at] connect.hku.hk 
 <br>
