@@ -57,7 +57,7 @@ python dac.py
 https://www.youtube.com/watch?v=t5CKDndcRSk
 
 ## Paper
-Our paper is currently in progress. If you are interested in collaborating with us, please feel free to reach out! Any feedback are hugely appreciated.
+We are currently finding advisor. Feel free to contact us! 
 
 ## Author
 Hon Kit Long u3608018 [at] connect.hku.hk 
