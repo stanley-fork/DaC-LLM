@@ -64,6 +64,8 @@ Au Chi Kin Kinson chikinau03 [at] gmail.com
 Liu Peter Hong Zhiliuhongzhi3000 [at] gmail.com
 <br>
 Cho Chung Hei u3605966 [at] connect.hku.hk
+<br>
+Kelly Sit kellysithl03[at]gmail.com
 
 
 ## License
